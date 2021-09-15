@@ -60,7 +60,7 @@ export default {
     hotel:  null
   }),  
   mounted: function() {
-    messageBus.subscribe("internalchannel", "hotel", event => {
+    messageBus.subscribe("internalchannel", "hotel-detail", event => {
       this.hotel = event.payload.hotel;
     });
   },    
