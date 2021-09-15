@@ -1,6 +1,6 @@
 {
-  "name": "vue-microfront-podium",
-  "podletName": "vueMicrofrontPodium",
+  "name": "vue-hotels",
+  "podletName": "vueHotels",
   "version": "0.1.1",
   "private": true,
   "scripts": {

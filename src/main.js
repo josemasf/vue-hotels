@@ -1,12 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import Buefy from 'buefy'
+import {Rate, Carousel, Image} from 'buefy'
 import 'buefy/dist/buefy.css'
 
 const pjson = require('../package.json');
 
-Vue.use(Buefy)
+Vue.use(Rate)
+Vue.use(Carousel)
+Vue.use(Image)
 
 Vue.config.productionTip = false
 
